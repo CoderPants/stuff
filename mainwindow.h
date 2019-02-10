@@ -54,9 +54,6 @@ private:
     //Text style
     QFont *cellStyle;
 
-    //Animation
-    QPropertyAnimation *animation;
-
     //Variable for player info
     int playerTurn;
 
