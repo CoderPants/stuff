@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/rec">
+        <file>img/iconmonstr-refresh-icon.svg</file>
+        <file>img/images.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>289</width>
+    <height>372</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(65, 244, 217); </string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QLabel" name="lbl_playerTurn">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>20</y>
+      <width>201</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(1,35,47);
+font-size: 20px;
+</string>
+    </property>
+    <property name="text">
+     <string>First player turn X</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_11">
+    <property name="geometry">
+     <rect>
+      <x>1</x>
+      <y>51</y>
+      <width>100</width>
+      <height>100</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>100</width>
+      <height>100</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>100</width>
+      <height>100</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton { 
+background-color: rgb(65, 244, 217); 
+border : 1px solid rgb(65, 244, 217); 
+border-bottom: 5px solid rgb(112, 65, 244);
+border-right: 5px solid rgb(112,65,244);
+}
+
+QPushButton:pressed {
+background-color : rgb(65, 244, 200);	
+border : 1px solid rgb(65, 244, 217) ; 
+border-bottom: 5px solid rgb(112, 65, 244);
+border-right: 5px solid rgb(112,65,244);
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_12">
+    <property name="geometry">
+     <rect>
+      <x>93</x>
+      <y>51</y>
+      <width>100</width>
+      <height>100</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>100</width>
+      <height>100</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>100</width>
+      <height>100</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton { 
+background-color: rgb(65, 244, 217); 
+border : 1px solid rgb(65, 244, 217) ; 
+border-bottom:5px solid rgb(112,65,244);
+border-right:5px solid rgb(112,65,244);
+border-left:5px solid rgb(112,65,244);
+}
+
+QPushButton:pressed {
+background-color : rgb(65, 244, 200);	
+border : 1px solid rgb(65, 244, 217) ; 
+border-bottom:5px solid rgb(112,65,244);
+border-right:5px solid rgb(112,65,244);
+border-left:5px solid rgb(112,65,244);
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_13">
+    <property name="geometry">
+     <rect>
+      <x>185</x>
+      <y>51</y>
+      <width>100</width>
+      <height>100</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>100</width>
+      <height>100</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>100</width>
+      <height>100</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton { 
+background-color: rgb(65, 244, 217); 
+border : 1px solid rgb(65, 244, 217) ; 
+border-bottom: 5px solid rgb(112, 65, 244);
+border-left: 5px solid rgb(112, 65, 244);
+}
+
+QPushButton:pressed {
+background-color : rgb(65, 244, 200);	
+border : 1px solid rgb(65, 244, 217) ; 
+border-bottom: 5px solid rgb(112, 65, 244);
+border-left: 5px solid rgb(112, 65, 244);
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_21">
+    <property name="geometry">
+     <rect>
+      <x>1</x>
+      <y>146</y>
+      <width>100</width>
+      <height>100</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>100</width>
+      <height>100</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>100</width>
+      <height>100</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton { 
+background-color: rgb(65, 244, 217); 
+border : 1px solid rgb(65, 244, 217) ; 
+border-top: 5px solid rgb(112,65,244);
+border-bottom: 5px solid rgb(112,65,244);
+border-right: 5px solid rgb(112,65,244);
+}
+
+QPushButton:pressed {
+background-color : rgb(65, 244, 200);	
+border : 1px solid rgb(65, 244, 217) ; 
+border-top: 5px solid rgb(112,65,244);
+border-bottom: 5px solid rgb(112,65,244);
+border-right: 5px solid rgb(112,65,244);
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_22">
+    <property name="geometry">
+     <rect>
+      <x>93</x>
+      <y>146</y>
+      <width>100</width>
+      <height>100</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>100</width>
+      <height>100</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>100</width>
+      <height>100</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton { 
+background-color: rgb(65, 244, 217); 
+border : 5px solid rgb(112, 65, 244) ; 
+}
+
+QPushButton:pressed {
+background-color : rgb(65, 244, 200);	
+border : 5px solid rgb(112, 65, 244) ; 
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_23">
+    <property name="geometry">
+     <rect>
+      <x>185</x>
+      <y>146</y>
+      <width>100</width>
+      <height>100</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>100</width>
+      <height>100</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>100</width>
+      <height>100</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton { 
+background-color: rgb(65, 244, 217); 
+border : 1px solid rgb(65, 244, 217) ; 
+border-top : 5px solid rgb(112, 65, 244);
+border-left : 5px solid rgb(112, 65, 244);
+border-bottom : 5px solid rgb(112, 65, 244);
+}
+
+QPushButton:pressed {
+background-color : rgb(65, 244, 200);	
+border : 1px solid rgb(65, 244, 217) ; 
+border-top : 5px solid rgb(112, 65, 244);
+border-left : 5px solid rgb(112, 65, 244);
+border-bottom : 5px solid rgb(112, 65, 244);
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_31">
+    <property name="geometry">
+     <rect>
+      <x>1</x>
+      <y>241</y>
+      <width>100</width>
+      <height>100</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>100</width>
+      <height>100</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>100</width>
+      <height>100</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton { 
+background-color: rgb(65, 244, 217); 
+border : 1px solid rgb(65, 244, 217); 
+border-top: 5px solid rgb(112, 65, 244);
+border-right: 5px solid rgb(112,65,244);
+}
+
+QPushButton:pressed {
+background-color : rgb(65, 244, 200);	
+border : 1px solid rgb(65, 244, 217) ; 
+border-top: 5px solid rgb(112, 65, 244);
+border-right: 5px solid rgb(112,65,244);
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_32">
+    <property name="geometry">
+     <rect>
+      <x>93</x>
+      <y>241</y>
+      <width>100</width>
+      <height>100</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>100</width>
+      <height>100</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>100</width>
+      <height>100</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton { 
+background-color: rgb(65, 244, 217); 
+border : 1px solid rgb(65, 244, 217) ; 
+border-top:5px solid rgb(112,65,244);
+border-right:5px solid rgb(112,65,244);
+border-left:5px solid rgb(112,65,244);
+}
+
+QPushButton:pressed {
+background-color : rgb(65, 244, 200);	
+border : 1px solid rgb(65, 244, 217) ; 
+border-top:5px solid rgb(112,65,244);
+border-right:5px solid rgb(112,65,244);
+border-left:5px solid rgb(112,65,244);
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_33">
+    <property name="geometry">
+     <rect>
+      <x>185</x>
+      <y>241</y>
+      <width>100</width>
+      <height>100</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>100</width>
+      <height>100</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>100</width>
+      <height>100</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton { 
+background-color: rgb(65, 244, 217); 
+border : 1px solid rgb(65, 244, 217) ; 
+border-top: 5px solid rgb(112, 65, 244);
+border-left: 5px solid rgb(112, 65, 244);
+}
+
+QPushButton:pressed {
+background-color : rgb(65, 244, 200);	
+border : 1px solid rgb(65, 244, 217) ; 
+border-top: 5px solid rgb(112, 65, 244);
+border-left: 5px solid rgb(112, 65, 244);
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>289</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: black;
+font: 15px;
+border-bottom: 1px solid black</string>
+   </property>
+   <widget class="QMenu" name="menuGame">
+    <property name="styleSheet">
+     <string notr="true">QMenu {
+    background-color: rgb(65, 244, 217);
+    margin: 2px; /* some spacing around the menu */
+}
+
+QMenu::item {
+    padding: 2px 25px 2px 20px;
+    border: 1px solid transparent; /* reserve space for selection border */
+}
+
+QMenu::item:selected {
+    border-color: darkblue;
+    background: rgba(100, 100, 100, 150);
+}
+
+QMenu::icon:checked { /* appearance of a 'checked' icon */
+    background: gray;
+    border: 1px inset gray;
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    bottom: 1px;
+    left: 1px;
+}
+
+QMenu::separator {
+    height: 2px;
+    background: lightblue;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+QMenu::indicator {
+    width: 13px;
+    height: 13px;
+}</string>
+    </property>
+    <property name="title">
+     <string>Game</string>
+    </property>
+    <addaction name="actionNew_Game"/>
+    <addaction name="actionExit"/>
+   </widget>
+   <addaction name="menuGame"/>
+  </widget>
+  <action name="actionNew_Game">
+   <property name="icon">
+    <iconset resource="image_resource.qrc">
+     <normaloff>:/rec/img/iconmonstr-refresh-icon.svg</normaloff>:/rec/img/iconmonstr-refresh-icon.svg</iconset>
+   </property>
+   <property name="text">
+    <string>New Game</string>
+   </property>
+  </action>
+  <action name="actionExit">
+   <property name="icon">
+    <iconset resource="image_resource.qrc">
+     <normaloff>:/rec/img/images.png</normaloff>:/rec/img/images.png</iconset>
+   </property>
+   <property name="text">
+    <string>Exit</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="image_resource.qrc"/>
+ </resources>
+ <connections/>
+</ui>
